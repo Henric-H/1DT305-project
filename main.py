@@ -21,8 +21,8 @@ ESSID = 'YourNetwordName'
 Password = 'YourPassword'
 
 # Put ThingSpeak stuff here.
-ThingSpeak_API_Key = "VPLHSBH88T0LCFRT"
-ThingSpeak_Channel_ID = "1080128"
+ThingSpeak_API_Key = "YourWriteKey"
+ThingSpeak_Channel_ID = "YourChanelID"
 MQTT_SERVER = "mqtt.thingspeak.com"
 
 # Set up MQTT clent
