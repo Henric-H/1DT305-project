@@ -17,8 +17,8 @@ import BME280
 i2c = I2C(scl=Pin(22), sda=Pin(21), freq=10000)
 
 # Put your network stuff here.
-ESSID = 'alfaEspritos'
-Password = 'MagiskSkalbaggeUnderPappasKaktus'
+ESSID = 'YourSSIDorESSID'
+Password = 'YourPass'
 
 # Put ThingSpeak stuff here.
 ThingSpeak_API_Key = "VPLHSBH88T0LCFRT"
