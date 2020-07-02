@@ -1,6 +1,6 @@
 % Enter your MATLAB code below
-readChId = 1080128              % Your Channel ID					
-readKey = 'H7FKV5N7VR28IWPH' %Your Read API Key
+readChId =              % Your Channel ID					
+readKey = '' %Your Read API Key
 [Data1, Time1] = thingSpeakRead(readChId,'fields',[1,4,3,2,5],...
     'NumPoints',500,'ReadKey',readKey);
 
