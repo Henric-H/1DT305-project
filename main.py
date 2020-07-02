@@ -125,7 +125,7 @@ def send_data(temp_DGT11, hum_DGT11, temp_core, temp_BME280, hum_BME280, pres_BM
     time_at_connect = utime.ticks_ms()
     while wlan1.isconnected() == False:
         pass
-        if utime.ticks_diff(time_at_connect, utime.ticks_ms()) > 60000:
+        if utime.ticks_diff(utime.ticks_ms(), time_at_connect) > 60000:
             print('Network error can not connect')
             break
     
